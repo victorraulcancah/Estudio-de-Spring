@@ -1,0 +1,46 @@
+package com.example.agenda_contactos.model;
+
+import java.sql.Date;
+
+public class Contacto {
+    private Integer idContacto;
+    private String nombre;
+    private String apellido;
+    private String direccion;
+    private String empresa;
+    private Date fechaNacimiento;
+    private String notas;
+    private Boolean favorito;
+    private Date fechaCreacion;
+    private Date fechaActualizacion;
+
+    public Integer getIdContacto() { return idContacto; }
+    public void setIdContacto(Integer idContacto) { this.idContacto = idContacto; }
+
+    public String getNombre() { return nombre; }
+    public void setNombre(String nombre) { this.nombre = nombre; }
+
+    public String getApellido() { return apellido; }
+    public void setApellido(String apellido) { this.apellido = apellido; }
+
+    public String getDireccion() { return direccion; }
+    public void setDireccion(String direccion) { this.direccion = direccion; }
+
+    public String getEmpresa() { return empresa; }
+    public void setEmpresa(String empresa) { this.empresa = empresa; }
+
+    public Date getFechaNacimiento() { return fechaNacimiento; }
+    public void setFechaNacimiento(Date fechaNacimiento) { this.fechaNacimiento = fechaNacimiento; }
+
+    public String getNotas() { return notas; }
+    public void setNotas(String notas) { this.notas = notas; }
+
+    public Boolean getFavorito() { return favorito; }
+    public void setFavorito(Boolean favorito) { this.favorito = favorito; }
+
+    public Date getFechaCreacion() { return fechaCreacion; }
+    public void setFechaCreacion(Date fechaCreacion) { this.fechaCreacion = fechaCreacion; }
+
+    public Date getFechaActualizacion() { return fechaActualizacion; }
+    public void setFechaActualizacion(Date fechaActualizacion) { this.fechaActualizacion = fechaActualizacion; }
+}
