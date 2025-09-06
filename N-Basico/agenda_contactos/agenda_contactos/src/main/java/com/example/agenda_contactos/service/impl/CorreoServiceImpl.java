@@ -26,7 +26,7 @@ public class CorreoServiceImpl implements CorreoService {
     @Async
     public CompletableFuture<CorreoResponse> agregarCorreo(CorreoRequest request, int idContacto) {
         Correo correo = new Correo();
-        correo.setIdContacto(idContacto); // se asigna directamente aquí
+        correo.setIdContacto(idContacto); 
         correo.setTipo(request.getTipo());
         correo.setEmail(request.getEmail());
 
